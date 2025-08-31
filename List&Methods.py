@@ -1,0 +1,12 @@
+l1 = [3,5,234,233,234, 234, 2112, "Rishabh"]
+print(type(l1))
+print(l1)
+l1.remove("Rishabh")
+l1.sort()
+print(l1)
+l1.pop()
+print(l1)
+l1.append(78)
+print(l1)
+l1.extend([78,21,22,23,24,25,26])
+print(l1)
